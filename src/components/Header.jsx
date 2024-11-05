@@ -7,6 +7,7 @@ import header2 from '../media/Header/header2.jpg'
 import header3 from '../media/Header/header3.jpg'
 
 const Header = () => {
+  /*
   const [data, setData] = useState([]);
   const [selectedCategory,  setSelectedCategory] = useState("");
 
@@ -18,12 +19,13 @@ const Header = () => {
     getProduct();
   }, []);
 
+  
   const SelectedCategoryPage = (category) => {
     setSelectedCategory(category);
     window.location.href = `/catalog/${category}`;
     window.scrollTo(0, 0);
   };
-
+  */
 
 
   const [isMenuVisible, setIsMenuVisible] = useState(false);
@@ -109,24 +111,24 @@ const Header = () => {
               <div className="dropdown-content">
                   <div className="dropdown-div">
                       <Link to="/catalog/collection/new" className="dropdown-div-a" onClick={ClickPage}>Новинки</Link>
-                      <Link to="/catalog/rings" className="dropdown-div-a" onClick={() => SelectedCategoryPage("rings")}>Кольца</Link>
-                      <Link to="/catalog/earrings" className="dropdown-div-a" onClick={() => SelectedCategoryPage("earrings")}>Серьги</Link>
-                      <Link to="/catalog/bracelets" className="dropdown-div-a" onClick={() => SelectedCategoryPage("bracelets")}>Браслеты</Link>
-                      <Link to="/catalog/necklaces" className="dropdown-div-a" onClick={() => SelectedCategoryPage("necklaces")}>Колье</Link>
-                      <Link to="/catalog/chains" className="dropdown-div-a" onClick={() => SelectedCategoryPage("chains")}>Цепи</Link>
-                      <Link to="/catalog/suspensions" className="dropdown-div-a" onClick={() => SelectedCategoryPage("suspensions")}>Подвески</Link>
-                      <Link to="/catalog/sets" className="dropdown-div-a" onClick={() => SelectedCategoryPage("sets")}>Комплекты</Link>
+                      <Link to="/catalog/rings" className="dropdown-div-a" onClick={ClickPage}>Кольца</Link>
+                      <Link to="/catalog/earrings" className="dropdown-div-a" onClick={ClickPage}>Серьги</Link>
+                      <Link to="/catalog/bracelets" className="dropdown-div-a" onClick={ClickPage}>Браслеты</Link>
+                      <Link to="/catalog/necklaces" className="dropdown-div-a" onClick={ClickPage}>Колье</Link>
+                      <Link to="/catalog/chains" className="dropdown-div-a" onClick={ClickPage}>Цепи</Link>
+                      <Link to="/catalog/suspensions" className="dropdown-div-a" onClick={ClickPage}>Подвески</Link>
+                      <Link to="/catalog/sets" className="dropdown-div-a" onClick={ClickPage}>Комплекты</Link>
                   </div>
                   <div className="dropdown-content-photo">
-                    <Link to="/catalog/earrings" className="dropdown-content-photo-1" onClick={() => SelectedCategoryPage("earrings")}>
+                    <Link to="/catalog/earrings" className="dropdown-content-photo-1" onClick={ClickPage}>
                       <img className="dropdown-content-photo-1-img" src={header1} alt="idyl" style={{objectPosition: '25% center'}} />
                       <span className="dropdown-div-a-photo">Серьги</span>
                     </Link>
-                    <Link to="/catalog/necklaces" className="dropdown-content-photo-1" onClick={() => SelectedCategoryPage("necklaces")}>
+                    <Link to="/catalog/necklaces" className="dropdown-content-photo-1" onClick={ClickPage}>
                       <img className="dropdown-content-photo-1-img" src={header2} alt="idyl" style={{objectPosition: '50% center'}} />
                       <span className="dropdown-div-a-photo">Колье</span>
                     </Link>
-                    <Link to="/catalog/bracelets" className="dropdown-content-photo-1" onClick={() => SelectedCategoryPage("bracelets")}>
+                    <Link to="/catalog/bracelets" className="dropdown-content-photo-1" onClick={ClickPage}>
                       <img className="dropdown-content-photo-1-img" src={header3} alt="idyl" style={{objectPosition: '35% center'}} />
                       <span className="dropdown-div-a-photo">Браслеты</span>
                     </Link>

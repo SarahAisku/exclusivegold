@@ -1,5 +1,5 @@
 import img1 from '../../media/CollectionSea/214330305_218565770128556_1177952353281317331_n.jpg'
-import img3 from '../../media/CollectionSea/219871781_145982067613444_7859460934201707774_n.jpg'
+import img3 from '../../media/CollectionSea/aa.jpg'
 import img4 from '../../media/CollectionSea/267837770_443692003994721_1351540578376007533_n.jpg'
 import img5 from '../../media/CollectionSea/269742567_2745435245756977_1205159702074210010_n.jpg'
 import img7 from '../../media/CollectionSea/269990656_226252019692239_8456683516231745037_n.jpg'

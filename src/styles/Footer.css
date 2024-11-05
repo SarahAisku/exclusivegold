@@ -53,6 +53,7 @@
     font-family: Gotham-Book;
     margin-bottom: 20px;
     font-size: 17px;
+    cursor: default;
 }
 .FooterInner_Info-link{
     text-align: left;
@@ -92,6 +93,7 @@
 .FooterInner_SignIn-p{
     font-size: 14px;
     margin-bottom: 18px;
+    cursor: default;
 }
 .FooterInner_SignIn-Input{
     padding: 12px 14px;
@@ -125,6 +127,7 @@
     color: #2e2d2d;
     text-align: left;
     margin: 30px 40px 0px 40px;
+    cursor: default;
 }
 
 @media (max-width:1138px){

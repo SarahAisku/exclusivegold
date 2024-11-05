@@ -202,6 +202,7 @@
 .Care-h1{
     font-size: 23px;
     margin-bottom: 50px;
+    cursor: default;
 }
 .Care-Info{
     text-align: left;
@@ -213,6 +214,7 @@
 }
 .Care-Info-p:last-child{
     margin-bottom: 50px;
+    cursor: default;
 }
 
 @media (max-width:780px){
@@ -246,10 +248,12 @@
 .About-h2{
     font-size: 20px;
     margin-bottom: 30px;
+    cursor: default;
 }
 .About-p{
     letter-spacing: 1px;
     opacity: 0.9;
+    cursor: default;
 }
 
 /*----------------------------------Contact------------------------------------------------*/
