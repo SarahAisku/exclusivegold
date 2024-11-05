@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img{
+    width: 100%;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@font-face {font-family: Departura-Bold-Italic; src: url(./media/Fonts/Departura-Bold-Italic.ttf);}
+@font-face {font-family: Departura-Extra-Light; src: url(./media/Fonts/Departura-Extra-Light.ttf);}
+@font-face {font-family: Myra-4F-Caps-Light; src: url(./media/Fonts/Myra-4F-Caps-Light.ttf);}
+@font-face {font-family: Pacifico; src: url(./media/Fonts/Pacifico.ttf);}
+@font-face {font-family: Rex-Bold-Inline; src: url(./media/Fonts/Rex-Bold-Inline.ttf);}
+
+@font-face {font-family: Gotham-Bold; src: url(./media/Fonts/Gotham-Font/Gotham-Bold.ttf);}
+@font-face {font-family: Gotham-Book; src: url(./media/Fonts/Gotham-Font/Gotham-Book.ttf);}
+@font-face {font-family: Gotham-Light; src: url(./media/Fonts/Gotham-Font/Gotham-Light.ttf);}
+@font-face {font-family: Gotham-Medium; src: url(./media/Fonts/Gotham-Font/Gotham-Medium.ttf);}
+@font-face {font-family: Gotham-Thin; src: url(./media/Fonts/Gotham-Font/Gotham-Thin.ttf);}
+
+@font-face {font-family: ITC-Benguiat-Bold; src: url(./media/Fonts/ITC-Benguiat-Bold.ttf);}
+@font-face {font-family: ITC-Benguiat-Medium; src: url(./media/Fonts/ITC-Benguiat-Medium.ttf);}
+@font-face {font-family: ITC-Benguiat-Book; src: url(./media/Fonts/ITC-Benguiat-Book.ttf);}
+
